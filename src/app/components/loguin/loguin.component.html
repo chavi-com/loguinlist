@@ -1,0 +1,16 @@
+<form (ngSubmit)="onSubmit()">
+  <h4>LOGUIN</h4>
+  <label for="email">Email:</label>
+  <input type="email" id="email" [(ngModel)]="email" name="email" required>
+  
+  <label for="password">Contraseña:</label>
+  <input type="password" id="password" [(ngModel)]="password" name="password" required>
+  
+  <button type="submit">Iniciar sesión</button>
+  <div *ngIf="loading" class="loading-spinner"></div>
+  <div *ngIf="message">{{ message }}</div>
+</form>
+
+  
+
+  

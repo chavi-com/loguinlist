@@ -1,0 +1,97 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+
+  h4{
+    display: block;
+    font-weight: bold;
+    margin-top: 5px;
+    text-align: center;
+    color: rgb(13, 7, 125);
+    font-size: 20px;
+
+
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-top: 40px;
+    text-align: center;
+    color: rgb(243, 243, 245);
+    font-size: 20px;
+
+  }
+  
+  input {
+    width: 95%;
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #4c26e2;
+    margin-top: 10px;
+    height: 30px;
+  }
+  
+  button {
+    display: block;
+    margin: 20px auto;
+    margin-top: 40px;
+    padding: 10px 20px;
+    background-color: #00ff22;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 80%;
+    font-size: 20px;
+
+  }
+  .loading-spinner {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 1px 2px 5px 1px black;
+    border: 8px solid #007bff;
+    border-top-color: transparent;
+    animation: spinner 3s linear infinite;
+    margin-left: 50%;
+    margin-right: 50%;
+  }
+  
+  @keyframes spinner {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  form {
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 4px;
+    margin-left: 28%;
+    margin-right: 25%;
+    margin-top: 60px;
+    margin-bottom: 80px;
+    background: rgba(255, 50, 50, 0.722);
+    box-shadow: 1px 1px 6px  rgb(0, 64, 255);
+  }
+  

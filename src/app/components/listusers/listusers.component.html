@@ -1,0 +1,36 @@
+<div *ngIf="selectedUser; else userList" class="user-details-container">
+  <!-- Mostrar los detalles del usuario aquí -->
+  <h2>Detalles del usuario</h2>
+  <p>Nombres:   {{ selectedUser?.name }}</p>
+  <p>Apellidos:   {{ selectedUser?.lastname }}</p>
+  <p>Telefono:   {{ selectedUser?.phone }}</p>
+  <p>Email:   {{ selectedUser?.email }}</p>
+  <!-- Otros detalles del usuario -->
+  <button type="button" class="button-secondary" (click)="selectedUser = null">Volver</button>
+</div>
+
+
+<ng-template #userList>
+  <div class="table-container">
+    <h2>Lista de Usuarios</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>informacion</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let user of users">
+
+          <td>{{ user.name }}</td>
+
+          <td>
+            
+            <button type="button" class="button-primary" (click)="openDetails(user)">Ver detalles</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</ng-template>

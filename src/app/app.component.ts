@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'pruebaAG';
+  showLoginForm: boolean = true;
+
+  onLoginSuccess() {
+    this.showLoginForm = false;
+  }
 }
