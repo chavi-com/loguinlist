@@ -1,27 +1,38 @@
-# PruebaAG
+# PRUEBAAG
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.2.
+aplicacion para consumir api validacion de usuario regustrado con formulario de loguin y lista de usuarios registrados con detalles de cada usuario
+## Requisitos previos
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Configuración del proyecto
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Sigue los siguientes pasos para configurar y ejecutar la aplicación:
 
-## Build
+1. Clona este repositorio en tu máquina local.
+2. Navega hasta el directorio del proyecto: `cd nombre-del-proyecto`.
+3. Instala las dependencias del proyecto: `npm install`.
+4. Inicia la aplicación en modo de desarrollo: `ng serve`.
+5. Abre tu navegador y visita `http://localhost:4200`.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Funcionalidades
 
-## Running unit tests
+- formulario de inicio de seccion: valida los campos consumiendo la api para iniciar seccion
+- lista de usuarios registrados por medio de la api.
+- detalles de usuario.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Contribución
 
-## Further help
+Si deseas contribuir a este proyecto, sigue los siguientes pasos:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+1. Crea un fork de este repositorio.
+2. Crea una nueva rama para tu contribución: `git checkout -b nombre-de-la-rama`.
+3. Realiza las modificaciones y mejoras necesarias.
+4. Confirma tus cambios: `git commit -m "Descripción de los cambios"`.
+5. Sube tus cambios a tu repositorio: `git push origin nombre-de-la-rama`.
+6. Abre una solicitud de extracción (pull request) en GitHub.
+
+
+
