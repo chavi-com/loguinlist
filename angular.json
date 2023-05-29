@@ -6,7 +6,7 @@
     "pruebaAG": {
       "projectType": "application",
       "schematics": {},
-      "root": "", 
+      "root": "",
       "sourceRoot": "src",
       "prefix": "app",
       "architect": {
@@ -26,7 +26,8 @@
             ],
             "styles": [
               "src/styles.css",
-              "node_modules/@fortawesome/fontawesome-free/css/all.min.css"
+                "node_modules/@fortawesome/fontawesome-free/css/all.min.css"
+
             ],
             "scripts": []
           },
