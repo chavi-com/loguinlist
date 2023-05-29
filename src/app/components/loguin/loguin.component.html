@@ -7,8 +7,10 @@
   <input type="password" id="password" [(ngModel)]="password" name="password" required>
   
   <button type="submit">Iniciar sesión</button>
-  <div *ngIf="loading" class="loading-spinner"></div>
+  <div class=" cont-spiner ">
+    <div *ngIf="loading" class="loading-spinner"></div>
   <div *ngIf="message">{{ message }}</div>
+  </div>
 </form>
 
   

@@ -22,7 +22,7 @@ export class LoguinComponent {
     this.loading = true;
     this.message = '';
 
-    this.http.post<any>('http://localhost:9000/api/users/login', { email: this.email, password: this.password })
+    this.http.post<any>('http://localhost:3000/api/users/login', { email: this.email, password: this.password })
       .subscribe(
         response => {
           this.loading = false;
@@ -36,7 +36,7 @@ export class LoguinComponent {
         },
         error => {
           this.loading = false;
-          this.message = 'Inicio de sesión fallido';
+          this.message = 'error en servidor';
         }
       );
   }
