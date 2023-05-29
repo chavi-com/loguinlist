@@ -1,11 +1,12 @@
 # PRUEBAAG
 
-https://i.postimg.cc/NGd9Y4Tb/Imagen-de-Whats-App-2023-05-29-a-las-03-27-01.jpg 
 
 aplicacion para consumir api validacion de usuario regustrado con formulario de loguin y lista de usuarios registrados con detalles de cada usuario
 ## Requisitos previos
 
 ## Ver proyecto en la web "recomendado"
+url aplicacion: https://loguinlist-570luifrb-edizonchavi-gmailcom.vercel.app/
+
 ![en moviles](https://i.postimg.cc/NGd9Y4Tb/Imagen-de-Whats-App-2023-05-29-a-las-03-27-01.jpg)
 
 Sigue los siguientes pasos para  ejecutar la aplicación con exito:
